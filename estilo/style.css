@@ -8,7 +8,7 @@
 
 header {
     background: #bbbbbb;
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
 .caixa {
@@ -19,7 +19,7 @@ header {
 
 nav {
     position: absolute;
-    top: 70px;
+    top: 110px;
     right: 0;
 }
 
@@ -34,7 +34,6 @@ nav a {
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
-    line-height: 2;
 }
 
 nav a:hover {
@@ -42,56 +41,48 @@ nav a:hover {
     border-top: 1px solid red;
 }
 
-#banner {
-    width: 100%;
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
 
-.principal {
-    background: #cccccc;
-    padding: 30px;
-}
-
-.titulo-principal {
-    padding-left: 20px;
-}
-
-.titulo-centralizado {
-    text-align: center;
-}
-
-p {
-    text-align: center;
-}
-
-#missao {
-    font-size: 20px;
-}
-
-em strong {
-    color: #ff0000;
-}
-
-.beneficio {
-    background: white;
-    padding: 20px 0 20px 30px;
-}
-
-.itens {
-    font-style: italic;
-    font-size: 20px;
-}
-
-ul {
+.produtos li {
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 15%;
-    margin-right: 20%;
-    margin-left: 5%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
-.img-benefios {
-    display: inline-block;
-    width: 50%;
+.produtos li:hover {
+    border-color: red;
+}
+
+.produtos li:active {
+    border-color: green;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.produto-descricao {
+    font-size: 18px;
 }
 
 footer {
@@ -104,4 +95,26 @@ footer {
     color: white;
     font-size: 13px;
     margin-top: 20px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
 }
