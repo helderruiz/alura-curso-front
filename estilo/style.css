@@ -1,8 +1,45 @@
 @charset "UTF-8";
 
-body {
-    /* margin: 0;
-    padding: 0; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #bbbbbb;
+    padding: 30px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 70px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    line-height: 2;
+}
+
+nav a:hover {
+    color: red;
+    border-top: 1px solid red;
 }
 
 #banner {
@@ -49,9 +86,22 @@ ul {
     vertical-align: top;
     width: 15%;
     margin-right: 20%;
+    margin-left: 5%;
 }
 
 .img-benefios {
     display: inline-block;
     width: 50%;
+}
+
+footer {
+    text-align: center;
+    background: url(../imagens-produtos/bg.jpg);
+    padding: 40px 0;
+}
+
+.copyrigth {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
 }
