@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbearia Alura</title>
-    <link rel="stylesheet" href="estilo/style-home.css">
+    <link rel="stylesheet" href="estilo/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     
 </head>
 <body>
@@ -16,31 +18,41 @@
                 <ul>
                     <li><a href="produtos.html">Produtos</a></li>
                     <li><a href="contato.html">Contato</a></li>
-                    <li><a href="#">Endereço</a></li>
+                    <li><a href="endereco.html">Endereço</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
+        <img class="banner" src="imagens/banner.jpg" alt="imagem">
+
     <main>
-        <img id="banner" src="imagens/banner.jpg" alt="imagem">
-        <div class="principal">
-            <h2 class="titulo-centralizado">Sobre a Barbearia Alura</h2>
-        
+        <section class="principal">
+            <h2 class="titulo-principal">Sobre a Barbearia Alura</h2>
+
+            <img class="utensilios" src="imagens/utensilios.jpg" alt="imagem utensilios">
+            
             <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
             <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
             <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-        </div>
-        <div class="beneficio">
-            <h3 class="titulo-centralizado">Benefícios</h3>
-            <ul>
-                <li class="itens">Atendimento ao cliente</li>
-                <li class="itens">Espaço diferenciado</li>
-                <li class="itens">Localização</li>
-                <li class="itens">profissionais Qualificados</li>
-            </ul>
-            <img class="img-benefios" src="imagens/beneficios.jpg" alt="imagem">
-        </div>
+        </section>
+        
+        <section class="beneficio">
+            <h3 class="titulo-principal">Benefícios</h3>
+
+            <div class="conteudo-beneficios">
+                <ul class="lista-beneficios">
+                    <li class="itens">Atendimento ao cliente</li>
+                    <li class="itens">Espaço diferenciado</li>
+                    <li class="itens">Localização</li>
+                    <li class="itens">profissionais Qualificados</li>
+                    <li class="itens">Pontualidade</li>
+                    <li class="itens">Limpeza</li>
+                </ul><img class="img-benefios" src="imagens/beneficios.jpg" alt="imagem">
+            </div>
+
+            <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        </section>
     </main>
 
     <footer>
