@@ -216,10 +216,15 @@ td, th {
     width: 40%;
     display: inline-block;
     vertical-align: top;
+    list-style: none;
 }
 
 .itens {
     line-height: 1.5;
+}
+
+.itens::before {
+    content: "★";
 }
 
 .itens:first-child {
